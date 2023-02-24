@@ -1,0 +1,151 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #082b59;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 0 1rem 0;
+  justify-content: center;
+  width: 120px;
+  height: 80px;
+}
+
+footer {
+  background-color: #082b59;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  margin: 1rem 0;
+}
+
+a {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d98555;
+}
+
+.bodylink {
+  color: #59331d;
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 2rem;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.navigation > div {
+  background-color: #082b59;
+  width: 120px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.fa-solid {
+  color: white;
+}
+
+.fa-solid:hover {
+  color: #d98555;
+}
+
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: #d98555;
+  padding: 0;
+}
+
+.card {
+  background-color: #59331d;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.cardimg {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card p {
+  color: white;
+  margin: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 4rem 0;
+}
+
+article {
+  width: 70%;
+}
+
+aside {
+  width: 25%;
+}
+
+button {
+  background-color: #59331d;
+  color: white;
+  font-size: 18px;
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 0.5rem;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.socials {
+  font-family: "Lato", sans-serif;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 12px;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
